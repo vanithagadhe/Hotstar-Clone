@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "vanitha-hotstar" # Replace with your actual S3 bucket name
+    bucket = "vanitha-hotstar-terraform" # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
